@@ -40,7 +40,7 @@ else:
 
     for i in range(100):
    
-        latest_iteration.text(f'Forecasting in progress {i+1}')
+        latest_iteration.text(f'Progress Status {i+1}')
         bar.progress(i + 1)
         time.sleep(0.05)
 
