@@ -4,6 +4,6 @@ import pandas as pd
 
 st.header("My first Streamlit App")
 st.write(pd.DataFrame({
-    'Intplan': ['yes', 'yes', 'yes', 'no'],
-    'Churn Status': [0, 0, 0, 1]
+    'Intplan': ['yes', 'yes', 'yes', 'no','test'],
+    'Churn Status': [0, 0, 0, 1,2]
 }))
